@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(0, 0%, 8%);
+  font-family: Inter;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+.container {
+  width: 300px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 0.5rem;
+  height: 31rem;
+  max-height: 100vdh;
+}
+img {
+  height: 8rem;
+  width: 8rem;
+  margin: 10px;
+  margin-left: 90px;
+  margin-bottom: 15px;
+  border-radius: 10rem;
+}
+h1,
+p,
+button {
+  text-align: center;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+}
+button {
+  display: block;
+  margin-left: 25px;
+  width: 250px;
+  margin-bottom: 10px;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  background: hsl(0, 0%, 20%);
+  color: rgb(247, 241, 241);
+  font-weight: 600;
+  font-size: 10px;
+}
+button:hover {
+  background-color: rgb(253, 253, 17);
+  color: black;
+  cursor: pointer;
+}
+.first {
+  margin-top: 15px;
+}
+.London {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 0);
+}
+.Front-end {
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(207, 207, 207);
+}
